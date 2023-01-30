@@ -31,13 +31,15 @@ We present active-learning as a real-valued search problem. A system is sampled 
 
 Figure 1: Active learning involves constructing the utility function, searching it for the sample to acquire, then retraining the model.
 
-This chapter looks at constructing the utility as an optimization search surface ( $u(x) \in R^1, x \in R^n$ ). It extends a more general form of Bayesian optimization ( ${u(x) = \eta + k\sigma}$) by providing explicit constraint terms as geometric functions. Where much of the previous work requires knowledge of Gaussian process regression, this work does not. 
+This chapter looks at constructing the utility as an optimization search surface ( $u(x) \in R^1, x \in R^n$ ). It extends a more general form of Bayesian optimization ( ${u(x) = \eta + k\sigma}$) by providing explicit constraint terms as geometric functions. Where much of the previous work requires knowledge of Gaussian process regression, this work does not.  Several other forms are available in literature but are not as transparent [13]–[15], requiring deep knowledge of stochastic processes.
 
 ## Uncertainty sampling
 
-Bayesian optimization uses a model to automate experimental design. The intuition is to “measure at the point of highest uncertainty” and consequently highest information. This is referred to as uncertainty sampling or informative sampling.  
+Bayesian optimization uses a model to select the next point to sample automate experimental design. A number of acquisition functions exist, but here  uncertainty sampling is used. The intuition is to “measure at the point of highest uncertainty” and consequently highest information. 
 
-![Bayesian_optimization](figs/Bayesian_optimization.png)
+<img src="figs/Bayesian_optimization.png" alt="Bayesian_optimization" style="zoom:24%;" />
+
+
 
 Figure 2: The intuition behind uncertainty sampling is "acquiring samples at the point of highest uncertainty will improve the model". 
 
@@ -66,6 +68,6 @@ A term ( $w$ ) is introduce to quantify “the expected change in the model from
 
 Figure 4: Using a sigmoid as a transition function, the inflection point and slope will affect the transition between acquiring data to build the model (exploration) and controlling or optimizing the operation (exploitation).
 
-The practitioner is responsible for designing the  transition function using a sigmoid, ( ${w(z) \in (0,1)}$ ) . The utility is modified accordingly ( ${u(x) = c_x(x)[w*{\sigma (x)} +(1-w){\eta(x)}] }$ ). Several other forms are available in literature but are not as transparent [13]–[15], requiring deep knowledge of stochastic processes.
+The practitioner is responsible for designing the  transition function using a sigmoid, ( ${w(z) \in (0,1)}$ ) . The utility is modified accordingly ( ${u(x) = c_x(x)[(1-w)*{\sigma (x)} +w{\eta(x)}] }$ ). 
 
 Selecting to maximize the response ( ${\eta(x) = \hat y}$ ) the algorithm will now first explore to model the behavior, then optimize the operating conditions. The figure that follows illustrates the process but the process is better illustrated using the supplementary GIF.![GIF](figs/utility.gif).
