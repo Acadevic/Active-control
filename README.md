@@ -7,6 +7,8 @@ Active learning is a form of machine learning where the model selects the next a
 ## Keywords
 Bayesian optimization, active learning, data-based modeling, steady state 
 
+
+
 # Introduction
 
 Active learning is a form of reinforcement learning that places an emphasis on the cost of sample acquisition, where modern reinforcement learning emphasizes stringing together sequence of decisions to escape local minima. For example [1] investigated “The design of experiment using reinforcement learning” by having a car escaping a bowl by driving around to build up enough momentum and catapult out. In contrast, active learning finds its roots in mining [2] where rock samples are extracted by drilling deep and expensive wholes to find the optimum position for the mine. A large body of current work investigates active-learning for classification problems [3], by selecting the most informative samples to be labeled by a human oracle. According to [4] substantially less work considers regression.
@@ -29,15 +31,15 @@ We present active-learning as a real-valued search problem. A system is sampled 
 
 Figure 1: Active learning involves constructing the utility function, searching it for the sample to acquire, then retraining the model.
 
-This chapter looks at constructing the utility as an optimization search surface ( $u(x) \in R^1, x \in R^n$ ).
+This chapter looks at constructing the utility as an optimization search surface ( $u(x) \in R^1, x \in R^n$ ). It extends a more general form of Bayesian optimization ( ${u(x) = \eta + k\sigma}$) by providing explicit constraint terms as geometric functions. Where much of the previous work requires knowledge of Gaussian process regression, this work does not. 
 
 ## Uncertainty sampling
 
-Bayesian optimization uses a model to automate experimental design. The intuition is to “measure at the point of highest uncertainty” and consequently highest information. This is referred to as uncertainty sampling or informative sampling. 
+Bayesian optimization uses a model to automate experimental design. The intuition is to “measure at the point of highest uncertainty” and consequently highest information. This is referred to as uncertainty sampling or informative sampling.  
 
 ![Bayesian_optimization](figs/Bayesian_optimization.png)
 
-Figure 2: Uncertainty based sampling. The intuition is sampling at the point of highest uncertainty will improve the model.
+Figure 2: The intuition behind uncertainty sampling is "acquiring samples at the point of highest uncertainty will improve the model". 
 
 Several modeling methods are able to predict the epistemic uncertainty (confidence interval) including Gaussian Process Regression, Ensemble, dropout, and Bayesian Neural Networks to name a few [8]–[12]. This work uses ensemble where multiple predictions quantify the mean and uncertainty ( $( \hat y,\sigma) = g(x)$ ).
 
@@ -66,4 +68,4 @@ Figure 4: Using a sigmoid as a transition function, the inflection point and slo
 
 The practitioner is responsible for designing the  transition function using a sigmoid, ( ${w(z) \in (0,1)}$ ) . The utility is modified accordingly ( ${u(x) = c_x(x)[w*{\sigma (x)} +(1-w){\eta(x)}] }$ ). Several other forms are available in literature but are not as transparent [13]–[15], requiring deep knowledge of stochastic processes.
 
-Selecting to maximize the response ( ${\eta(x) = \hat y}$ ) the algorithm will now first explore to model the behavior, then optimize the operating conditions. The figure that follows illustrates the process but the process is better illustrated using the supplementary GIF.
+Selecting to maximize the response ( ${\eta(x) = \hat y}$ ) the algorithm will now first explore to model the behavior, then optimize the operating conditions. The figure that follows illustrates the process but the process is better illustrated using the supplementary GIF.![GIF](figs/utility.gif).
