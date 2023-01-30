@@ -64,6 +64,6 @@ A term ( $w$ ) is introduce to quantify “the expected change in the model from
 
 Figure 4: Using a sigmoid as a transition function, the inflection point and slope will affect the transition between acquiring data to build the model (exploration) and controlling or optimizing the operation (exploitation).
 
-The practitioner is responsible for designing the  transition function using a sigmoid, ( ${w(z) \in (0,1)}$ ) . The utility is modified accordingly ( ${u(x) = c_x(x)[w*{\sigma (x)} +(1-w){\eta(x)}]$ ). Several other forms are available in literature but are not as transparent [13]–[15], requiring deep knowledge of stochastic processes.
+The practitioner is responsible for designing the  transition function using a sigmoid, ( ${w(z) \in (0,1)}$ ) . The utility is modified accordingly ( ${u(x) = c_x(x)[w*{\sigma (x)} +(1-w){\eta(x)}] }$ ). Several other forms are available in literature but are not as transparent [13]–[15], requiring deep knowledge of stochastic processes.
 
 Selecting to maximize the response ( ${\eta(x) = \hat y}$ ) the algorithm will now first explore to model the behavior, then optimize the operating conditions. The figure that follows illustrates the process but the process is better illustrated using the supplementary GIF.
