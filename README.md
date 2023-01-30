@@ -23,9 +23,43 @@ A second multi-variate problem illustrates exploration constraints.
 
 # Active learning
 
-We present active-learning as a real-valued search problem. A system is sampled at particular operating conditions ( $y =f(x)+\eta$ ) . The data are used to train the model. Using the model the practitioner designs the acquisition function () to execute his/her intuition. The acquisition function is then searched to select the next sample. These acquisition functions are balance exploration and exploitation. Exploration considers acquiring informative samples, thereby efficiently modeling the system behavior and resembles optimal experimental design. Exploitation typically involves selecting samples that improve the current best, here we sampling at optimal conditions which resembles control.
+We present active-learning as a real-valued search problem. A system is sampled at particular operating conditions ( $y =f(x)+\epsilon$ ) . The data are used to train the model. Using the model the practitioner designs the acquisition function ($u(x)$) to execute his/her intuition. The objective function, also referred to as acquisition or utility function is then searched to select the next sample. These acquisition functions are balance exploration and exploitation. Exploration considers acquiring informative samples, thereby efficiently modeling the system behavior and resembles optimal experimental design. Exploitation typically involves selecting samples that improve the current best, here we sampling at optimal conditions which resembles control.
+
+![active learning](/home/alex/Nextcloud/Research/Active control/figs/Active control flowchart.png)
+
+Figure 1: Active learning involves constructing the utility function, searching it for the sample to acquire, then retraining the model.
+
+This chapter looks at constructing the utility as an optimization search surface ($u(x) \in R^1, x \in R^n$).
+
+## Uncertainty sampling
+
+Bayesian optimization uses a model to automate experimental design. The intuition is to “measure at the point of highest uncertainty” and consequently highest information. This is referred to as uncertainty sampling or informative sampling. 
+
+![Bayesian_optimization](/home/alex/Nextcloud/Research/Active control/figs/Bayesian optimization.png)
+
+Figure 2: Uncertainty based sampling. The intuition is sampling at the point of highest uncertainty will improve the model.
+
+Several modeling methods are able to predict the epistemic uncertainty (confidence interval) including Gaussian Process Regression, Ensemble, dropout, and Bayesian Neural Networks to name a few [8]–[12]. This work uses ensemble where multiple predictions quantify the mean and uncertainty ($( \hat y,\sigma) = g(x)$).
 
 
+
+# Multiplicative constraints
+
+An issue that arises is that the sampling is not constrained  and may sample in undesirable states, far from our interest. Utility is introduced to accommodate constraints by quantifying the engineering practitioners requirements, desires, interests, etc. This can be thought of as a means of controlling or biasing the algorithms decision. 
+
+Utility is the product of the uncertainty and the constraining function(s) ($u(x) = \sigma(x) *c(x)$). The constraint is typically a step function ($c(x) \in [0,1]$). The figure that follows illustrates this.
 
 
 ![Range constraint](figs/mc.png)
+
+Figure 3: The construction of utility by the product of the uncertainty and constraint surfaces.
+
+
+
+This acquisition function automates experimental design while respecting experimental constraints and has been shown to significantly reduce the number of experimental trials **[SELF REF]**. 
+
+## Transition between exploration and exploitation
+
+Once the model can predict the system response we would like to run the system at optimal conditions (control). We do this with the addition of an optimal response function ($\eta$). The response is predicted by the model (${\eta(x) = h (\hat y})$) and so we require that the model predict the response correctly.
+
+A term ($w$) is introduce to quantify “the expected change in the model from the next sample”. When  is low, there is little benefit in exploration, and exploitation/optimization can take precedence. 
