@@ -25,7 +25,7 @@ A second multi-variate problem illustrates exploration constraints.
 
 We present active-learning as a real-valued search problem. A system is sampled at particular operating conditions ( $y =f(x)+\epsilon$ ) . The data are used to train the model. Using the model the practitioner designs the acquisition function ( $u(x)$ ) to execute his/her intuition. The objective function, also referred to as acquisition or utility function is then searched to select the next sample. These acquisition functions are balance exploration and exploitation. Exploration considers acquiring informative samples, thereby efficiently modeling the system behavior and resembles optimal experimental design. Exploitation typically involves selecting samples that improve the current best, here we sampling at optimal conditions which resembles control.
 
-![active learning](figs/Active control flowchart.png)
+![active learning](figs/flowchart.png)
 
 Figure 1: Active learning involves constructing the utility function, searching it for the sample to acquire, then retraining the model.
 
@@ -35,7 +35,7 @@ This chapter looks at constructing the utility as an optimization search surface
 
 Bayesian optimization uses a model to automate experimental design. The intuition is to “measure at the point of highest uncertainty” and consequently highest information. This is referred to as uncertainty sampling or informative sampling. 
 
-![Bayesian_optimization](figs/Bayesian optimization.png)
+![Bayesian_optimization](figs/Bayesian_optimization.png)
 
 Figure 2: Uncertainty based sampling. The intuition is sampling at the point of highest uncertainty will improve the model.
 
@@ -52,8 +52,6 @@ Utility is the product of the uncertainty and the constraining function(s) ( $u(
 
 Figure 3: The construction of utility by the product of the uncertainty and constraint surfaces.
 
-
-
 This acquisition function automates experimental design while respecting experimental constraints and has been shown to significantly reduce the number of experimental trials **[SELF REF]**. 
 
 ## Transition between exploration and exploitation
@@ -61,3 +59,11 @@ This acquisition function automates experimental design while respecting experim
 Once the model can predict the system response we would like to run the system at optimal conditions (control). We do this with the addition of an optimal response function ( $\eta$ ). The response is predicted by the model ( ${\eta(x) = h (\hat y})$ ) and so we require that the model predict the response correctly.
 
 A term ( $w$ ) is introduce to quantify “the expected change in the model from the next sample”. When  is low, there is little benefit in exploration, and exploitation/optimization can take precedence. 
+
+![transition](figs/transition.svg)
+
+Figure 4: Using a sigmoid as a transition function, the inflection point and slope will affect the transition between acquiring data to build the model (exploration) and controlling or optimizing the operation (exploitation).
+
+The practitioner is responsible for designing the  transition function using a sigmoid, ( ${w(z) \in (0,1)}$ ) . The utility is modified accordingly ( ${u(x) = c_x(x)[w*{\sigma (x)} +(1-w){\eta(x)}]$ ). Several other forms are available in literature but are not as transparent [13]–[15], requiring deep knowledge of stochastic processes.
+
+Selecting to maximize the response ( ${\eta(x) = \hat y}$ ) the algorithm will now first explore to model the behavior, then optimize the operating conditions. The figure that follows illustrates the process but the process is better illustrated using the supplementary GIF.
