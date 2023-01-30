@@ -11,7 +11,7 @@ Bayesian optimization, active learning, data-based modeling, steady state
 
 # Introduction
 
-Active learning is a form of reinforcement learning that places an emphasis on the cost of sample acquisition, where modern reinforcement learning emphasizes stringing together sequence of decisions to escape local minima. For example [1] investigated “The design of experiment using reinforcement learning” by having a car escaping a bowl by driving around to build up enough momentum and catapult out. In contrast, active learning finds its roots in mining [2] where rock samples are extracted by drilling deep and expensive wholes to find the optimum position for the mine. A large body of current work investigates active-learning for classification problems [3], by selecting the most informative samples to be labeled by a human oracle. According to [4] substantially less work considers regression.
+Active learning is a form of reinforcement learning that places an emphasis on the cost of sample acquisition, where modern reinforcement learning emphasizes stringing together sequence of decisions to escape local minima. For example [1] investigated “The design of experiment using reinforcement learning” by having a car escaping a bowl by driving around to build up enough momentum and catapult out. In contrast, active learning finds its roots in mining [2] where rock samples are extracted by drilling deep and expensive holes to find the optimum position for a mine. The goal is to find sample efficient data for modeling.  A large body of current work investigates active-learning for classification problems [3], by selecting the most informative samples to be labeled by a human oracle. According to [4] substantially less work considers regression.
 
 This work investigates the use of active learning for control of industrial process. In this context it allows automated modeling and control of industrial processes. The authors anticipate that the adoption of this technique depends on the practitioner having confidence in the systems behavior. For this reason we present the systems behavior as an objective function constructed from a series of intuitive functions (constraints, transitions, exploration, and exploitation/control) which is more transparent but requires more design parameters.
 
@@ -62,12 +62,10 @@ This acquisition function automates experimental design while respecting experim
 
 Once the model can predict the system response we would like to run the system at optimal conditions (control). We do this with the addition of an optimal response function ( $\eta$ ). The response is predicted by the model ( ${\eta(x) = h (\hat y})$ ) and so we require that the model predict the response correctly.
 
-A term ( $w$ ) is introduce to quantify “the expected change in the model from the next sample”. When  is low, there is little benefit in exploration, and exploitation/optimization can take precedence. 
+A term ( $w$ ) is introduce which can be loosely thought of as “the expected change in the model from the next sample”. When $w$ is low, there is little benefit in exploration, and exploitation/optimization can take precedence. Here we use the term to force the transition with a sigmoid function ( ${u(x) = c_x(x)[(1-w)*{\sigma (x)} +w{\eta(x)}] }$ ). This allows the practitioner to design a transition that varies from linear to discrete, ( ${w(z) \in (0,1)}$ ).
 
 ![transition](figs/transition.svg)
 
 Figure 4: Using a sigmoid as a transition function, the inflection point and slope will affect the transition between acquiring data to build the model (exploration) and controlling or optimizing the operation (exploitation).
-
-The practitioner is responsible for designing the  transition function using a sigmoid, ( ${w(z) \in (0,1)}$ ) . The utility is modified accordingly ( ${u(x) = c_x(x)[(1-w)*{\sigma (x)} +w{\eta(x)}] }$ ). 
 
 Selecting to maximize the response ( ${\eta(x) = \hat y}$ ) the algorithm will now first explore to model the behavior, then optimize the operating conditions. The figure that follows illustrates the process but the process is better illustrated using the supplementary GIF.![GIF](figs/utility.gif).
