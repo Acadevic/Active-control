@@ -37,11 +37,11 @@ This chapter looks at constructing the utility as an optimization search surface
 
 Bayesian optimization uses a model to select the next point to sample automate experimental design. A number of acquisition functions exist, but here  uncertainty sampling is used. The intuition is to “measure at the point of highest uncertainty” and consequently highest information. 
 
-<img src="figs/Bayesian_optimization.png" alt="Bayesian_optimization" style="zoom:24%;" />
-
-
+<img src="figs/uncertainty_sampling.png">
 
 Figure 2: The intuition behind uncertainty sampling is "acquiring samples at the point of highest uncertainty will improve the model". 
+
+The figure shows sampling at the point of highest uncertainty (left) and how it tends to choose extreme values in sequence (right). In cases such as clinical trials this may not be an issue, but considering the input ( $x$ ) to be the temperature of a furnace we would prefer sequential values be "near". The avid reader will ask the question "are sequential predictions a better choice", but myopic sampling is investigated here as we may not always have a model than interpolates well enough.
 
 Several modeling methods are able to predict the epistemic uncertainty (confidence interval) including Gaussian Process Regression, Ensemble, dropout, and Bayesian Neural Networks to name a few [8]–[12]. This work uses ensemble where multiple predictions quantify the mean and uncertainty ( $( \hat y,\sigma) = g(x)$ ).
 
