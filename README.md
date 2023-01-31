@@ -115,5 +115,48 @@ As predicted the algorithm first explored, gathering data to predict the respons
 
 ![utility surface](figs/utility_surface.png)
 
-Figure 8: Shows the utility surface over time. Note how the surface looks different during the exploration phase.
+Figure 8: Shows the utility surface over time. Note how the surface looks different during the exploration phase. This [GIF](figs/utility_flow_original.gif) illustrates the change dynamically. 
 
+A challenge of multi-variate problems is that the higher dimensional surfaces cannot always be visualized in familiar ways. Instead the inputs are shown for each iteration. The exploration and control phases can clearly be seen due to a almost discrete transition. Notice how fluctuations occurs during exploration, but the inputs settle at the desired outcome. The effect of the exploration is clearly visible in the figure (right). The $L_1$ norm was used encouraging changing a single dimension at a time. Similarly the  $L_2$ could be used if the changing the values simultaneously may be preferred. Although the effect of norms may be known it is not clear when they should be appropriately applied to real-world systems.
+
+![exploration](/home/alex/Nextcloud/Research/Active control/figs/exploration.png)
+
+Figure 9: The exploration and exploitation phases can clearly be seen at 25 iterations. The effect of the exploration is clearly visible (right).
+
+## Conclusion
+
+This work presented active-learning as a method for automating both modeling and control of steady state systems. The method gives the practitioner a level of control by designing the transition, control surface, and constraints. The envisioned outcome is that active-learning be adopted in more industrial application by increasing practitioner trust through transparent methods and foreseeable outcomes.
+
+This method is limited to steady state system. This assumption holds for a number of industrial systems but not for mechatronic systems such as the inverted pendulum. Hence a number of real-world applications  should be implemented to investigate where the boundary of appropriate use exists. A number of techniques need to be assimilated into frameworks for real world application, these techniques include steady-state detection, optimization techniques, splitting responsibilities between on-site real-time computation and cloud based computation.
+
+# References
+
+[1]	Christopher Gatti, *Springer Theses Recognizing Outstanding Ph.D. Research*. Accessed: Apr. 20, 2022. [Online]. Available: http://www.springer.com/series/8790
+
+[2]	D. G. Krige, “A statistical approach to some mine valuations and allied problems at the Witwatersrand,” Master’s thesis, University of Witwatersrand, Witwatersrand, 1951.
+
+[3]	P. Ren *et al.*, “A Survey of Deep Active Learning,” *ACM Comput. Surv.*, vol. 54, no. 9, Dec. 2022, doi: 10.1145/3472291.
+
+[4]	R. Burbidge, J. J. Rowland, and R. D. King, “Active Learning for Regression Based on Query by Committee”.
+
+[5]	A. P. Soleimany, A. Amini, S. Goldman, D. Rus, S. N. Bhatia, and C. W. Coley, “Evidential Deep Learning for Guided Molecular Property Prediction and Discovery,” *ACS Cent. Sci.*, vol. 7, no. 8, pp. 1356–1367, Aug. 2021, doi: 10.1021/acscentsci.1c00546.
+
+[6]	D. Wu, C. T. Lin, and J. Huang, “Active learning for regression using greedy sampling,” *Inf. Sci.*, vol. 474, pp. 90–105, Feb. 2019, doi: 10.1016/J.INS.2018.09.060.
+
+[7]	H. Yu and S. Kim, “Passive sampling for regression,” *Proc. - IEEE Int. Conf. Data Min. ICDM*, pp. 1151–1156, 2010, doi: 10.1109/ICDM.2010.9.
+
+[8]	C. E. Rasmussen and C. K. I. Williams, *Gaussian Processes for Machine Learning*, vol. 7, no. 5. 2000.
+
+[9]	Y. Li *et al.*, “Deep Bayesian Gaussian processes for uncertainty estimation in electronic health records,” *Sci. Rep.*, vol. 11, no. 1, p. 20685, Dec. 2021, doi: 10.1038/s41598-021-00144-6.
+
+[10]	Y. Gal and Z. Ghahramani, “Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning,” presented at the Proceedings of The 33rd International Conference on Machine Learning, Jun. 2015. [Online]. Available: https://proceedings.mlr.press/v48/gal16.html
+
+[11]	T. Pearce, M. Zaki, A. Brintrup, and A. Neely, “High-Quality Prediction Intervals for Deep Learning: A Distribution-Free, Ensembled Approach,” in *Proceedings of the 35th*, Feb. 2018. [Online]. Available: http://proceedings.mlr.press/v80/pearce18a.html
+
+[12]	G. Yang, Y. Lin, and P. Bhattacharya, “A driver fatigue recognition model based on information fusion and dynamic Bayesian network,” *Inf. Sci.*, vol. 180, no. 10, pp. 1942–1954, 2010, doi: 10.1016/j.ins.2010.01.011.
+
+[13]	J. Mockus, “Stochastic Models,” in *Bayesian Approach to Global Optimization: Theory and Applications*, J. Mockus, Ed. Dordrecht: Springer Netherlands, 1989, pp. 39–78. doi: 10.1007/978-94-009-0909-0_4.
+
+[14]	N. Srinivas, A. Krause, S. M. Kakade, and M. Seeger, “Gaussian Process Optimization in the Bandit Setting: No Regret and Experimental Design,” *IEEE Trans. Inf. Theory*, vol. 58, no. 5, pp. 3250–3265, May 2012, doi: 10.1109/TIT.2011.2182033.
+
+[15]	H. J. Kushner, “A New Method of Locating the Maximum Point of an Arbitrary Multipeak Curve in the Presence of Noise,” *J. Basic Eng.*, vol. 86, no. 1, pp. 97–106, Mar. 1964, doi: 10.1115/1.3653121.
