@@ -66,7 +66,7 @@ Once the model can predict the system response we would like to run the system a
 
 A term ( $w$ ) is introduce which can be loosely thought of as “the expected change in the model from the next sample”. When $w$ is low, there is little benefit in exploration, and exploitation/optimization can take precedence. Here we use the term to force the transition with a sigmoid function ( ${u(x) = c_x(x)[(1-w)*{\sigma (x)} +w{\eta(x)}] }$ ). This allows the practitioner to design a transition that varies from linear to discrete, ( ${w(z) \in (0,1)}$ ).
 
-![transition](figs/transition.svg)
+<img src="figs/transition.svg" alt="transition" align="center" />
 
 Figure 4: Using a sigmoid as a transition function, the inflection point and slope will affect the transition between acquiring data to build the model (exploration) and controlling or optimizing the operation (exploitation).
 
