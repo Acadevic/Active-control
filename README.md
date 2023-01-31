@@ -41,7 +41,9 @@ Bayesian optimization uses a model to select the next point to sample automate e
 
 Figure 2: The intuition behind uncertainty sampling is "acquiring samples at the point of highest uncertainty will improve the model". 
 
-The figure shows sampling at the point of highest uncertainty (left) and how it tends to choose extreme values in sequence (right). In cases such as clinical trials this may not be an issue, but considering the input ( $x$ ) to be the temperature of a furnace we would prefer sequential values be "near". The avid reader will ask the question "are sequential predictions a better choice", but myopic sampling is investigated here as we may not always have a model than interpolates well enough.
+The figure shows sampling at the point of highest uncertainty (left) and how it tends to choose extreme values in sequence (right). In cases such as clinical trials this may not be an issue, but considering the input ( $x$ ) to be the temperature of a furnace we would prefer sequential values be "near". This issue is exacerbated by higher dimension inputs.
+
+The avid reader will ask the question "are sequential predictions a better choice", but myopic sampling is investigated here as we may not always have a model than interpolates well enough.
 
 Several modeling methods are able to predict the epistemic uncertainty (confidence interval) including Gaussian Process Regression, Ensemble, dropout, and Bayesian Neural Networks to name a few [8]–[12]. This work uses ensemble where multiple predictions quantify the mean and uncertainty ( $( \hat y,\sigma) = g(x)$ ).
 
@@ -68,4 +70,4 @@ A term ( $w$ ) is introduce which can be loosely thought of as “the expected c
 
 Figure 4: Using a sigmoid as a transition function, the inflection point and slope will affect the transition between acquiring data to build the model (exploration) and controlling or optimizing the operation (exploitation).
 
-Selecting to maximize the response ( ${\eta(x) = \hat y}$ ) the algorithm will now first explore to model the behavior, then optimize the operating conditions. The figure that follows illustrates the process but the process is better illustrated using the supplementary GIF.![GIF](figs/utility.gif).
+Selecting to maximize the response ( ${\eta(x) = \hat y}$ ) the algorithm will now first explore to model the behavior, then optimize the operating conditions. The figure that follows illustrates the process but the process is better illustrated using the supplementary [GIF](figs/utility.gif).![GIF](figs/utility.gif).
