@@ -119,7 +119,7 @@ Figure 8: Shows the utility surface over time. Note how the surface looks differ
 
 A challenge of multi-variate problems is that the higher dimensional surfaces cannot always be visualized in familiar ways. Instead the inputs are shown for each iteration. The exploration and control phases can clearly be seen due to a almost discrete transition. Notice how fluctuations occurs during exploration, but the inputs settle at the desired outcome. The effect of the exploration is clearly visible in the figure (right). The $L_1$ norm was used encouraging changing a single dimension at a time. Similarly the  $L_2$ could be used if the changing the values simultaneously may be preferred. Although the effect of norms may be known it is not clear when they should be appropriately applied to real-world systems.
 
-![exploration](/home/alex/Nextcloud/Research/Active control/figs/exploration.png)
+![exploration](figs/exploration.png)
 
 Figure 9: The exploration and exploitation phases can clearly be seen at 25 iterations. The effect of the exploration is clearly visible (right).
 
