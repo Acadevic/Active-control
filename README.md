@@ -70,4 +70,50 @@ A term ( $w$ ) is introduce which can be loosely thought of as “the expected c
 
 Figure 4: Using a sigmoid as a transition function, the inflection point and slope will affect the transition between acquiring data to build the model (exploration) and controlling or optimizing the operation (exploitation).
 
-Selecting to maximize the response ( ${\eta(x) = \hat y}$ ) the algorithm will now first explore to model the behavior, then optimize the operating conditions. The figure that follows illustrates the process but the process is better illustrated using the supplementary [GIF](figs/utility.gif).![GIF](figs/utility.gif).
+Selecting to maximize the response ( ${\eta(x) = \hat y}$ ) the algorithm will now first explore to model the behavior, then optimize the operating conditions. The figure at the start of this chapter summarizes the process but a supplementary [GIF](figs/utility.gif) provides another perspective.![GIF](figs/utility.gif).
+
+# Engineering application
+
+This section explores a test case more indicative of engineering applications. The example test case is described and the  utility is constructed, illustrating some of the design choices regarding multivariate problems, vector scaling, and thrashing.
+
+
+
+## Test case: Controlled temperature extruder
+
+In this  case we consider model an extruder where the temperature of the material must be controlled. The goal is to select the element heat inputs $ x= [Q_1 ,Q_2] $ such that the desired temperatures are reached $ y = [T_2, T_3] $.
+
+![extruder](figs/extruder.png	)
+
+Figure 5: The extruder problem shown above, where the aim is to control the temperatures at specific points.
+
+The control surface is described by the distance equation $ {\eta(x) = \frac{m}{m + ||s-g{\mu}(x)||} $, where $m$ is the dimensionality of $y$. This will encourage the sampling at the operating conditions but requires the model correctly predict the response surface ( $ {g{\mu} \simeq y } $ ).
+
+![control surface](figs/control_surface.png)
+
+Figure 6: The control surface for the extruder problem.
+
+
+
+## Multi-variate decisions
+
+Due to the limitations of multi-variate search techniques we require that the utility function return a single real-value. For this reason we need to norm the results such that ${||u(x)||  \in{ \mathbb{R}}^1}$ . In this work the L1 norm was used.
+
+For simplification and consistency we impose the rule that the utility is defined on the interval [0,1] ${(u, \sigma , c , w, \eta) \in [0,1] }$ . We ensure this by using the transformed variables. This has the added benefit that one dimension will not dominate another due to scale.![norm](figs/norm.png)
+
+Figure 7: The transformed and norm variables used.
+
+## Exploration constraints
+
+As previously stated during exploration the system is expected to sample points of extreme values. In engineering applications this can be undesirable and dangerous.
+
+A distance constraint encouraging consecutive samples be near to each other in the input space satisfies this goal ${c{exploration} = 
+\frac{1}{1+k{slope}||x_{previous} - {x_{current}}||}}$. 
+
+# Results and discussion
+
+As predicted the algorithm first explored, gathering data to predict the response surface, then it optimizes the process. 
+
+![utility surface](figs/utility_surface.png)
+
+Figure 8: Shows the utility surface over time. Note how the surface looks different during the exploration phase.
+
