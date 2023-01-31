@@ -96,7 +96,7 @@ Figure 6: The control surface for the extruder problem.
 
 ## Multi-variate decisions
 
-Due to the limitations of multi-variate search techniques we require that the utility function return a single real-value. For this reason we need to norm the results such that ${||u(x)||  \in{ \mathbb{R}}^1}$ . In this work the L1 norm was used.
+Due to the limitations of multi-variate search techniques we require that the utility function return a single real-value. For this reason we need to norm the results such that ${||u(x)||  \in{ \mathbb{R}}^1}$ . In this work the $L_1$ norm was used.
 
 For simplification and consistency we impose the rule that the utility is defined on the interval [0,1] ${(u, \sigma , c , w, \eta) \in [0,1] }$ . We ensure this by using the transformed variables. This has the added benefit that one dimension will not dominate another due to scale.![norm](figs/norm.png)
 
@@ -116,7 +116,7 @@ As predicted the algorithm first explored, gathering data to predict the respons
 
 Figure 8: Shows the utility surface over time. Note how the surface looks different during the exploration phase. This [GIF](figs/utility_flow_original.gif) illustrates the change dynamically. 
 
-A challenge of multi-variate problems is that the higher dimensional surfaces cannot always be visualized in familiar ways. Instead the inputs are shown for each iteration. The exploration and control phases can clearly be seen due to a almost discrete transition. Notice how fluctuations occurs during exploration, but the inputs settle at the desired outcome. The effect of the exploration is clearly visible in the figure (right). The $L_1$ norm was used encouraging changing a single dimension at a time. Similarly the  $L_2$ could be used if the changing the values simultaneously may be preferred. Although the effect of norms may be known it is not clear when they should be appropriately applied to real-world systems.
+A challenge of multi-variate problems is that the higher dimensional surfaces cannot always be visualized in familiar ways. Instead the inputs are shown for each iteration. The exploration and control phases can clearly be seen due to a almost discrete transition. Notice how fluctuations occurs during exploration, but the inputs settle at the desired outcome. The effect of the exploration is clearly visible in the figure (right). The $L_1$ norm was used encouraging changing a single dimension at a time. Similarly, the  $L_2$ could be used if the changing the values simultaneously may be preferred. Although the effect of norms may be known it is not clear when they should be appropriately applied to real-world systems.
 
 ![exploration](figs/exploration.png)
 
