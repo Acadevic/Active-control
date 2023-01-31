@@ -80,13 +80,13 @@ This section explores a test case more indicative of engineering applications. T
 
 ## Test case: Controlled temperature extruder
 
-In this  case we consider model an extruder where the temperature of the material must be controlled. The goal is to select the element heat inputs $ x= [Q_1 ,Q_2] $ such that the desired temperatures are reached $ y = [T_2, T_3] $.
+In this  case we consider model an extruder where the temperature of the material must be controlled. The goal is to select the element heat inputs $x= [Q_1 ,Q_2]$ such that the desired temperatures are reached $y = [T_2, T_3]$.
 
 ![extruder](figs/extruder.png	)
 
 Figure 5: The extruder problem shown above, where the aim is to control the temperatures at specific points.
 
-The control surface is described by the distance equation $ {\eta(x) = \frac{m}{m + ||s-g{\mu}(x)||} $, where $m$ is the dimensionality of $y$. This will encourage the sampling at the operating conditions but requires the model correctly predict the response surface ( $ {g{\mu} \simeq y } $ ).
+The control surface is described by the distance equation $\eta(x) = \frac{m}{m + ||s-g_{\mu}(x)||}$, where $m$ is the dimensionality of $y$. This will encourage the sampling at the operating conditions but requires the model correctly predict the response surface ( ${g{\mu} \simeq y }$ ).
 
 ![control surface](figs/control_surface.png)
 
@@ -106,8 +106,7 @@ Figure 7: The transformed and norm variables used.
 
 As previously stated during exploration the system is expected to sample points of extreme values. In engineering applications this can be undesirable and dangerous.
 
-A distance constraint encouraging consecutive samples be near to each other in the input space satisfies this goal ${c{exploration} = 
-\frac{1}{1+k{slope}||x_{previous} - {x_{current}}||}}$. 
+A distance constraint encouraging consecutive samples be near to each other in the input space satisfies this goal $c_{exploration}=\frac{1}{1+k{slope}||x_{previous} - {x_{current}}||}$. . 
 
 # Results and discussion
 
