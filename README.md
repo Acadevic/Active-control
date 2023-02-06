@@ -70,7 +70,7 @@ A term ( $w$ ) is introduce which can be loosely thought of as “the expected c
 
 Figure 4: Using a sigmoid as a transition function, the inflection point and slope will affect the transition between acquiring data to build the model (exploration) and controlling or optimizing the operation (exploitation).
 
-Selecting to maximize the response ( ${\eta(x) = \hat y}$ ) the algorithm will now first explore to model the behavior, then optimize the operating conditions. The figure at the start of this chapter summarizes the process but a supplementary [GIF](figs/utility.gif) provides another perspective.![GIF](figs/utility.gif).
+Selecting to maximize the response ( ${\eta(x) = \hat y}$ ) the algorithm will now first explore to model the behavior, then optimize the operating conditions. The figure at the start of this chapter summarizes the process but a supplementary [GIF](figs/utility.gif) provides another perspective..
 
 # Engineering application
 
