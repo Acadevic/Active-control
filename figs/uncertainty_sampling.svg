@@ -28,14 +28,14 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.4142136"
-     inkscape:cx="189.50462"
-     inkscape:cy="114.90485"
+     inkscape:cx="110.30865"
+     inkscape:cy="69.650016"
      inkscape:window-width="1920"
      inkscape:window-height="1016"
-     inkscape:window-x="0"
+     inkscape:window-x="1080"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer5"
      inkscape:snap-to-guides="false"
      inkscape:snap-grids="false"
      units="in"
@@ -143,8 +143,8 @@
        width="39.191872"
        height="18.116354"
        x="5.8389101"
-       y="19.654655"
-       inkscape:export-filename="/home/alex/uncertainty.png"
+       y="55.638023"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <rect
@@ -154,7 +154,7 @@
        height="18.116354"
        x="5.8389101"
        y="37.807507"
-       inkscape:export-filename="/home/alex/uncertainty.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <rect
@@ -162,9 +162,9 @@
        id="rect39540"
        width="39.191872"
        height="18.116354"
-       x="5.8389101"
-       y="55.960129"
-       inkscape:export-filename="/home/alex/uncertainty.png"
+       x="5.838913"
+       y="19.976761"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <rect
@@ -174,7 +174,7 @@
        height="9.6478815"
        x="21.747726"
        y="9.993804"
-       inkscape:export-filename="/home/alex/uncertainty.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -198,66 +198,66 @@
      id="layer1">
     <path
        style="fill:#35c3fd;fill-opacity:1;stroke:#000000;stroke-width:0.0557838;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 0.61364;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 8.6523617,24.55227 c 0.2854032,0.02129 1.0876978,-4.32765 1.3709683,-4.283845 5.407201,0.83629 11.580019,6.39116 15.380331,7.132879 9.237328,1.802874 18.406235,-3.7817 18.406235,-3.7817 l -1.909493,6.641322"
+       d="m 8.1996661,63.476452 c 0.2849112,-0.02709 0.3432017,-4.449029 0.6298027,-4.453564 5.4708062,-0.08646 12.4910952,4.349288 16.3620432,4.44028 9.409021,0.221166 17.506247,-6.828037 17.506247,-6.828037 l -0.763537,6.868067"
        id="path2128"
        sodipodi:nodetypes="csscc"
-       inkscape:export-filename="/home/alex/uncertainty.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
        style="fill:#35c3fd;fill-opacity:1;stroke:#000000;stroke-width:0.0557838;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 0.61364;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 8.6611796,24.519566 c 0.2710425,0.07451 -1.2388816,4.301616 -0.9581702,4.354931 5.3582916,1.017681 13.8457596,-2.012491 17.6910376,-1.437539 9.346608,1.397526 14.824091,9.504411 14.824091,9.504411 l 1.682265,-6.680443"
+       d="m 8.2028483,63.44273 c 0.2797209,0.02779 -0.4966097,4.448832 -0.2109292,4.454102 5.4531499,0.100583 13.3089409,-4.315934 17.1961219,-4.396901 9.448462,-0.196797 16.213215,6.87162 16.213215,6.87162 l 0.532966,-6.868353"
        id="path19503"
        sodipodi:nodetypes="csscc"
-       inkscape:export-filename="/home/alex/uncertainty.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
        style="fill:#35c3fd;fill-opacity:1;stroke:#000000;stroke-width:0.0557838;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 0.61364;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 7.8824707,43.136664 c 0.2842206,0.02962 1.2869034,-4.292586 1.5679623,-4.240452 5.364869,0.995294 11.276817,6.728557 15.040245,7.581909 5.75439,1.304832 10.587219,1.057441 13.78135,2.412311 2.059575,0.873586 2.57202,0.932246 2.57202,0.932246 v 0"
+       d="m 7.9133217,46.358278 c 0.2844403,-0.02743 0.4085439,-4.462679 0.6943578,-4.467416 5.4556655,-0.09026 12.3886935,4.354349 16.2466365,4.443098 5.898913,0.135731 10.586284,-1.066761 13.985901,-0.373399 2.192066,0.447046 2.705951,0.402741 2.705951,0.402741 v 0"
        id="path2128-3"
        sodipodi:nodetypes="cscccc"
-       inkscape:export-filename="/home/alex/uncertainty.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
        style="fill:#35c3fd;fill-opacity:1;stroke:#000000;stroke-width:0.0557838;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 0.61364;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 7.8927905,43.104282 c 0.2674151,0.08243 -1.4367865,4.262101 -1.1587304,4.323654 5.3076159,1.175165 14.1519229,-1.644896 17.9679899,-0.956839 5.208251,0.939035 9.43062,3.451857 13.326437,3.211862 1.93228,-0.119049 2.815561,0.139719 2.815561,0.139719 v 0"
+       d="m 7.9170032,46.324492 c 0.2784603,0.02767 -0.5614958,4.462575 -0.2767537,4.467667 5.4352845,0.0974 13.5431335,-4.423363 17.4198305,-4.507072 5.290993,-0.114287 9.928381,1.509693 13.698883,0.500585 1.870123,-0.500519 2.787205,-0.42237 2.787205,-0.42237 v 0"
        id="path19503-6"
        sodipodi:nodetypes="cssscc"
-       inkscape:export-filename="/home/alex/uncertainty.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.203459;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 7.8824707,43.136664 C 20.424203,45.757522 28.658944,47.246441 40.844048,49.822678"
+       d="m 7.9133217,46.358278 c 12.8124153,0.07724 21.1788163,-0.09933 33.6328463,0.005"
        id="path1021-7"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/alex/uncertainty.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
        style="fill:#35c3fd;fill-opacity:1;stroke:#000000;stroke-width:0.0557838;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 0.61364;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 9.1555911,60.095692 c 5.0035069,-0.433407 12.4131839,1.891223 15.3953969,3.925586 5.812501,0.772686 10.095345,1.874962 13.368764,3.102943 2.110708,0.79181 2.626139,0.830284 2.626139,0.830284 v 0"
+       d="m 25.067561,28.155624 c 0.279749,-0.104088 -1.854769,-0.0891 -3.90631,-0.602979 -4.78765,-1.19923 -12.9316007,-3.062991 -12.281863,-3.299542 1.154664,-0.420381 3.014585,-0.262016 5.586253,0.311382 4.229392,0.943015 8.651344,2.925514 10.60192,3.591139 5.808179,-0.804532 9.71497,-0.882998 13.197276,-0.571938 2.2454,0.200576 2.752439,0.100275 2.752439,0.100275 v 0"
        id="path22357"
-       sodipodi:nodetypes="ccccc"
-       inkscape:export-filename="/home/alex/uncertainty.png"
+       sodipodi:nodetypes="cssscccc"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
        style="fill:#35c3fd;fill-opacity:1;stroke:#000000;stroke-width:0.0557838;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 0.61364;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 9.1555911,60.095692 c 6.0058059,2.529551 9.7123639,3.042238 15.3953969,3.925586 3.512341,1.62458 9.297775,4.296568 13.174186,3.904117 1.922675,-0.194715 2.820717,0.02927 2.820717,0.02927 v 0"
+       d="m 25.067561,28.155624 c 1.051021,0.13616 -17.0227067,-4.258097 -16.206575,-3.815272 1.299786,0.705252 1.862419,1.532951 3.975941,2.306157 2.113523,0.773206 9.560364,2.026009 12.230634,1.509115 3.794742,0.734796 9.591709,1.663588 13.223282,0.252115 1.801221,-0.700141 2.726476,-0.723623 2.726476,-0.723623 v 0"
        id="path22359"
-       sodipodi:nodetypes="ccscc"
-       inkscape:export-filename="/home/alex/uncertainty.png"
+       sodipodi:nodetypes="cszcscc"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.203459;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 9.1555911,60.095692 c 5.6410119,0.945269 11.1188619,2.634893 15.3420859,3.909277 5.275442,1.591982 9.201108,2.785794 16.048214,3.949536"
+       d="m 8.809179,24.313387 c 5.187413,1.210104 11.277618,3.738791 15.687737,3.841413 5.508923,0.128272 9.610773,0.232549 16.52036,-0.470839"
        id="path22361"
        sodipodi:nodetypes="csc"
-       inkscape:export-filename="/home/alex/uncertainty.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <rect
@@ -267,7 +267,7 @@
        height="1.1835382"
        x="23.871111"
        y="11.168923"
-       inkscape:export-filename="/home/alex/uncertainty.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -275,7 +275,7 @@
        d="m 24.016861,14.660411 c 1.121901,0 1.178056,-0.0091 1.178056,-0.0091"
        id="path26848"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/alex/uncertainty.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -338,33 +338,45 @@
        y="0"
        xlink:href="#path1045-6"
        id="use17366-6"
-       transform="translate(16.050015,32.267562)"
+       transform="rotate(-11.457897,176.74646,-51.531312)"
        width="100%"
-       height="100%" />
+       height="100%"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <use
        x="0"
        y="0"
        xlink:href="#path1045-6"
        id="use17366-2"
-       transform="translate(16.050015,50.461868)"
+       transform="rotate(-15.458496,70.300412,-38.275108)"
        width="100%"
-       height="100%" />
+       height="100%"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <use
        x="0"
        y="0"
        xlink:href="#path1045-6"
        id="use17366-9"
-       transform="translate(0.40633092,46.642582)"
+       transform="rotate(-15.458496,64.052347,21.264546)"
        width="100%"
-       height="100%" />
+       height="100%"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <use
        x="0"
        y="0"
        xlink:href="#path1045-6"
        id="use17366-27"
-       transform="translate(-15.2976,42.675808)"
+       transform="rotate(-15.458496,41.695827,78.98329)"
        width="100%"
-       height="100%" />
+       height="100%"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <use
        x="0"
        y="0"
@@ -419,10 +431,10 @@
      inkscape:label="Main lines">
     <path
        style="fill:none;stroke:#000000;stroke-width:0.203459;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 8.6523617,24.55227 C 21.306637,26.801213 29.604603,28.04611 41.900403,30.260926"
+       d="m 8.199665,63.476452 c 12.852283,0.0853 21.241377,-0.0853 33.734557,0.02675"
        id="path1021"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/alex/uncertainty.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
   </g>
@@ -437,7 +449,7 @@
        cy="17.505529"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/uncertainty.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <text
@@ -446,7 +458,7 @@
        x="27.623661"
        y="12.254596"
        id="text30306"
-       inkscape:export-filename="/home/alex/uncertainty.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"
        transform="scale(0.9918779,1.0081886)"><tspan
@@ -461,7 +473,7 @@
        x="27.599678"
        y="15.126696"
        id="text32356"
-       inkscape:export-filename="/home/alex/uncertainty.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"
        transform="scale(0.9918779,1.0081886)"><tspan
@@ -476,7 +488,7 @@
        x="27.599678"
        y="17.952774"
        id="text37478"
-       inkscape:export-filename="/home/alex/uncertainty.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"
        transform="scale(0.9918779,1.0081886)"><tspan
@@ -490,16 +502,22 @@
        y="0"
        xlink:href="#path1045-6"
        id="use17366"
-       transform="translate(0.40633082,29.247309)"
+       transform="rotate(-11.457897,169.51574,27.944958)"
        width="100%"
-       height="100%" />
+       height="100%"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <use
        x="0"
        y="0"
        xlink:href="#path1045-6"
        id="use17366-5"
-       transform="translate(0.40633082,9.8794916)"
+       transform="rotate(-9.697205,295.89004,39.347879)"
        width="100%"
-       height="100%" />
+       height="100%"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
   </g>
 </svg>
