@@ -106,7 +106,7 @@ Figure 7: The transformed and norm variables used.
 
 As previously stated during exploration the system is expected to sample points of extreme values. In engineering applications this can be undesirable and dangerous.
 
-A distance constraint encouraging consecutive samples be near to each other in the input space satisfies this goal $c_{exploration}=\frac{1}{1+k{slope}||x_{previous} - {x_{current}}||}$. . 
+A distance constraint encouraging consecutive samples be near to each other in the input space satisfies this goal $c_{exploration}=\frac{1}{1+k{slope}||x_{previous} - {x_{current}}||}$. 
 
 # Results and discussion
 
