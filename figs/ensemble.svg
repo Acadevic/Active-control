@@ -27,15 +27,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="2.0000001"
-     inkscape:cx="201.99999"
-     inkscape:cy="232.24999"
+     inkscape:zoom="2.0000002"
+     inkscape:cx="214.49998"
+     inkscape:cy="183.24998"
      inkscape:window-width="1920"
      inkscape:window-height="1016"
-     inkscape:window-x="1080"
+     inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer5"
      inkscape:snap-to-guides="false"
      inkscape:snap-grids="false"
      units="in"
@@ -230,57 +230,78 @@
      id="layer5"
      inkscape:label="Background">
     <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.132909;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.71434"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.114626;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.71434"
        id="rect40667"
-       width="23.241257"
-       height="15.746862"
-       x="84.09124"
-       y="13.447859"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       width="23.247511"
+       height="11.709315"
+       x="60.275589"
+       y="14.049657"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker1345)"
-       d="M 106.36916,50.310849 H 8.9815026"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.232101px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker1345)"
+       d="M 83.925047,50.310849 H 8.9815026"
        id="path1341"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.214553px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker1345-3)"
        d="m 8.9457791,13.026321 0.038801,37.191287"
        id="path1341-7"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.06, 2.12;stroke-dashoffset:2.65;stroke-opacity:1"
        d="m 15.445254,43.938776 c 9.015197,-0.14245 10.971734,-0.165352 22.115896,-0.262591 8.120695,-0.07086 14.701725,-12.061186 24.685794,-12.640129 12.32232,-0.714531 22.51193,-1.31507 22.51193,-1.31507 h -0.08994"
        id="path17948-5"
-       sodipodi:nodetypes="csscc" />
+       sodipodi:nodetypes="csscc"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#171e92;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 15.445254,43.938776 c 9.015197,-0.14245 10.971734,-0.165349 22.115896,-0.262591 4.434078,-0.03869 9.064274,-1.38383 13.384908,-4.731808 3.592296,-2.783603 6.768338,-7.645494 11.300886,-7.908321 12.32232,-0.71453 22.51193,-1.31507 22.51193,-1.31507 h -0.08994"
        id="path17948-4"
-       sodipodi:nodetypes="cssscc" />
+       sodipodi:nodetypes="cssscc"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#0b800f;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 15.445254,43.938776 c 9.015197,-0.14245 10.971734,-0.165349 22.115896,-0.262591 4.565808,-0.03984 7.71141,-5.719408 12.182279,-9.148446 3.480969,-2.669811 8.132924,-3.238247 12.503515,-3.491683 12.32232,-0.71453 22.51193,-1.31507 22.51193,-1.31507 h -0.08994"
        id="path17948-8"
-       sodipodi:nodetypes="cssscc" />
+       sodipodi:nodetypes="cssscc"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#1a2fdd;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 15.445254,43.938776 c 9.015197,-0.14245 10.971734,-0.165349 22.115896,-0.262591 3.997016,-0.03488 10.241642,-0.433377 14.082029,-3.461513 3.962087,-3.124096 5.533867,-8.884629 10.603765,-9.178616 12.32232,-0.71453 22.51193,-1.31507 22.51193,-1.31507 h -0.08994"
        id="path17948-7"
-       sodipodi:nodetypes="cssscc" />
+       sodipodi:nodetypes="cssscc"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#44ed19;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 15.445254,43.938776 c 9.015197,-0.14245 10.971734,-0.165349 22.115896,-0.262591 3.793451,-0.0331 3.97516,-5.659838 7.600493,-8.516694 4.13547,-3.258857 11.765127,-3.814936 17.085301,-4.123435 12.32232,-0.71453 22.51193,-1.31507 22.51193,-1.31507 h -0.08994"
        id="path17948-1"
-       sodipodi:nodetypes="cssscc" />
+       sodipodi:nodetypes="cssscc"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker1345-6)"
-       d="M 106.22252,92.517591 H 8.8348357"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.226047px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker1345-6)"
+       d="M 79.920083,92.517591 H 8.8348357"
        id="path1341-0"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -294,7 +315,7 @@
        sodipodi:nodetypes="cc" />
     <g
        inkscape:label=""
-       transform="matrix(0.67909148,0,0,0.66852098,-10.899262,41.658034)"
+       transform="matrix(0.67909148,0,0,0.66852098,-15.661761,41.658034)"
        id="g16351-1">
       <g
          id="g7075-5">
@@ -316,28 +337,21 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <rect
-       style="fill:#35c3fd;fill-opacity:1;stroke:#000000;stroke-width:0.146221;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.71434"
-       id="rect26780"
-       width="1.4812531"
-       height="1.1835382"
-       x="86.200218"
-       y="14.608574"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.346;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.692, 0.692;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 84.940277,18.706632 c 1.121901,0 3.94023,-0.0091 3.94023,-0.0091"
+       d="m 61.127776,16.589964 c 1.121901,0 3.94023,-0.0091 3.94023,-0.0091"
        id="path26848"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <g
        inkscape:label=""
-       transform="matrix(0.67909148,0,0,0.66852098,-10.752602,-0.54870993)"
-       id="g16351">
+       transform="matrix(0.67909148,0,0,0.66852098,-15.515101,-0.54870993)"
+       id="g16351"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <g
          id="g7075">
         <g
@@ -375,7 +389,10 @@
     <g
        inkscape:label=""
        transform="matrix(0.6737532,0,0,0.68064088,-58.128411,-24.692259)"
-       id="g26387">
+       id="g26387"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <g
          id="g7991">
         <g
@@ -395,12 +412,18 @@
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker1345);marker-mid:url(#marker1345)"
        d="m 49.149701,32.375601 -0.0215,-6.044949"
        id="path27138"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker1345)"
        d="m 49.113772,42.374616 0.04436,6.547092"
        id="path27140"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <g
        inkscape:label=""
        transform="matrix(0.54708613,0,0,0.6609919,-47.896267,19.731961)"
@@ -433,7 +456,7 @@
     </g>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 9.4474527,88.698258 c 0,0 17.0742913,0.124566 27.8804393,-0.208247 3.102677,-0.09556 3.507265,-8.297599 5.860094,-12.118118 1.405508,-2.282262 2.221574,-6.647166 4.888955,-6.384016 3.145846,0.310352 2.506023,5.831402 4.183508,8.510713 2.260024,3.609752 4.659504,10.044972 7.852647,10.078596 18.808382,0.198053 43.525354,-0.01457 43.525354,-0.01457"
+       d="m 9.4474527,88.698258 c 0,0 17.0742913,0.124566 27.8804393,-0.208247 3.102677,-0.09556 3.507265,-8.297599 5.860094,-12.118118 1.405508,-2.282262 2.221574,-6.647166 4.888955,-6.384016 3.145846,0.310352 2.506023,5.831402 4.183508,8.510713 2.260024,3.609752 4.659504,10.044972 7.852647,10.078596 18.808382,0.198053 19.581444,-0.01457 19.581444,-0.01457"
        id="path67137"
        sodipodi:nodetypes="csaaasc" />
   </g>
@@ -452,81 +475,66 @@
     <ellipse
        style="fill:#fd5835;fill-opacity:1;stroke:#000000;stroke-width:0.0492078;stroke-opacity:0.71434"
        id="path1045-6"
-       cx="86.940849"
-       cy="25.70767"
+       cx="63.128326"
+       cy="23.591002"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.13654px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0534142"
-       x="90.463158"
-       y="15.666314"
-       id="text30306"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"
-       transform="scale(0.9918779,1.0081886)"><tspan
-         sodipodi:role="line"
-         id="tspan30304"
-         style="stroke-width:0.0534142"
-         x="90.463158"
-         y="15.666314">Uncertainty</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:2.13654px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0534142"
-       x="90.439178"
-       y="18.538456"
+       x="66.431648"
+       y="16.438984"
        id="text32356"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"
        transform="scale(0.9918779,1.0081886)"><tspan
          sodipodi:role="line"
          id="tspan32354"
          style="stroke-width:0.0534142"
-         x="90.439178"
-         y="18.538456">Ensemble mean</tspan></text>
+         x="66.431648"
+         y="16.438984">Ensemble mean</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.346;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 84.702973,22.209779 c 1.121901,0 3.94023,-0.0091 3.94023,-0.0091"
+       d="m 60.890472,20.093111 c 1.121901,0 3.94023,-0.0091 3.94023,-0.0091"
        id="path26848-7"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.13654px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0534142"
-       x="90.292763"
-       y="22.441078"
+       x="66.285233"
+       y="20.341606"
        id="text32356-2"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"
        transform="scale(0.9918779,1.0081886)"><tspan
          sodipodi:role="line"
          id="tspan32354-7"
          style="stroke-width:0.0534142"
-         x="90.292763"
-         y="22.441078">Model prediction</tspan></text>
+         x="66.285233"
+         y="20.341606">Model prediction</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.13654px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0534142"
-       x="90.439178"
-       y="26.088291"
+       x="66.431648"
+       y="23.988819"
        id="text37478"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"
        transform="scale(0.9918779,1.0081886)"><tspan
          sodipodi:role="line"
          id="tspan37476"
          style="stroke-width:0.0534142"
-         x="90.439178"
-         y="26.088291">Data sample</tspan></text>
+         x="66.431648"
+         y="23.988819">Data sample</tspan></text>
     <ellipse
        style="fill:#fd5835;fill-opacity:1;stroke:#000000;stroke-width:0.0492078;stroke-opacity:0.71434"
        id="path1045-6-3"
@@ -534,7 +542,7 @@
        cy="42.816711"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -544,7 +552,7 @@
        cy="45.623039"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -554,7 +562,7 @@
        cy="43.93924"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -564,7 +572,7 @@
        cy="42.629684"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -574,7 +582,7 @@
        cy="44.313484"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -584,7 +592,7 @@
        cy="42.629684"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -594,7 +602,7 @@
        cy="44.87468"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -604,7 +612,7 @@
        cy="44.032784"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -614,7 +622,7 @@
        cy="42.536072"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -624,7 +632,7 @@
        cy="44.87468"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -634,7 +642,7 @@
        cy="43.377975"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -644,7 +652,7 @@
        cy="44.594048"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -654,7 +662,7 @@
        cy="42.25544"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -664,7 +672,7 @@
        cy="44.219872"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -674,7 +682,7 @@
        cy="42.816711"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -684,7 +692,7 @@
        cy="45.155319"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -694,7 +702,7 @@
        cy="45.155319"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -704,7 +712,7 @@
        cy="44.40696"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -714,7 +722,7 @@
        cy="32.433289"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -724,7 +732,7 @@
        cy="30.281769"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -734,7 +742,7 @@
        cy="32.059113"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -744,7 +752,7 @@
        cy="30.188225"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -754,7 +762,7 @@
        cy="32.433289"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -764,7 +772,7 @@
        cy="30.375313"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -774,7 +782,7 @@
        cy="31.684933"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -784,7 +792,7 @@
        cy="30.468857"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -794,7 +802,7 @@
        cy="31.965565"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -804,7 +812,7 @@
        cy="30.188225"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -814,7 +822,7 @@
        cy="32.152657"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -824,7 +832,7 @@
        cy="29.720505"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -834,7 +842,7 @@
        cy="31.778477"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -844,7 +852,7 @@
        cy="30.655945"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -854,17 +862,17 @@
        cy="32.246201"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
        style="fill:#fd5835;fill-opacity:1;stroke:#000000;stroke-width:0.0492078;stroke-opacity:0.71434"
        id="path1045-6-314"
-       cx="83.313148"
-       cy="30.936581"
+       cx="59.500626"
+       cy="28.819912"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -874,7 +882,7 @@
        cy="29.346325"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -884,7 +892,7 @@
        cy="29.533413"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -894,7 +902,7 @@
        cy="28.878605"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <ellipse
@@ -904,7 +912,7 @@
        cy="30.094681"
        rx="0.51839608"
        ry="0.49398819"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Bayesian_optimization.png"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/en_2png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
   </g>

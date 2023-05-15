@@ -3,13 +3,13 @@
 
 <svg
    width="4.3000002in"
-   height="3.69291in"
-   viewBox="0 0 109.22001 93.799922"
+   height="4.6929102in"
+   viewBox="0 0 109.22001 119.19993"
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    sodipodi:docname="transition.svg"
-   inkscape:export-filename="/home/alex/Nextcloud/Research/Sigmoid transition.png"
+   inkscape:export-filename="/home/alex/Nextcloud/Research/Active control/figs/Sigmoid_transition.png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -30,12 +30,12 @@
      inkscape:object-paths="true"
      inkscape:snap-intersection-paths="true"
      inkscape:snap-nodes="false"
-     inkscape:zoom="2.1971896"
-     inkscape:cx="183.87125"
-     inkscape:cy="227.33587"
+     inkscape:zoom="1.5536477"
+     inkscape:cx="182.15198"
+     inkscape:cy="257.78045"
      inkscape:window-width="1920"
      inkscape:window-height="1016"
-     inkscape:window-x="0"
+     inkscape:window-x="1080"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer2"
@@ -184,7 +184,7 @@
        x2="87.905861"
        y2="163.1404"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1,0,0,1.0069438,-29.379909,-120.31095)" />
+       gradientTransform="matrix(1,0,0,1.0069438,-31.496577,-93.323319)" />
     <g
        id="g4138">
       <symbol
@@ -429,7 +429,8 @@
        y1="44.856945"
        x2="58.408443"
        y2="44.374733"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-2.1166667,26.987511)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient1210"
@@ -439,7 +440,55 @@
        x2="81.486305"
        y2="87.350922"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(12.523853,-4.937215)" />
+       gradientTransform="translate(10.407185,22.050293)" />
+    <marker
+       inkscape:stockid="DistanceStart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DistanceStart-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <g
+         id="g2300-6">
+        <path
+           id="path2306-7"
+           d="M 0,0 H 2"
+           style="fill:none;stroke:context-fill;stroke-width:1.15;stroke-linecap:square" />
+        <path
+           id="path2302-5"
+           d="M 0,0 13,4 9,0 13,-4 Z"
+           style="fill:context-stroke;fill-rule:evenodd;stroke:none" />
+        <path
+           id="path2304-3"
+           d="M 0,-4 V 40"
+           style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:square" />
+      </g>
+    </marker>
+    <marker
+       inkscape:stockid="DistanceEnd"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DistanceEnd-5"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <g
+         id="g2301-6">
+        <path
+           id="path2316-2"
+           d="M 0,0 H -2"
+           style="fill:none;stroke:context-fill;stroke-width:1.15;stroke-linecap:square" />
+        <path
+           id="path2312-9"
+           d="m 0,0 -13,4 4,-4 -4,-4 z"
+           style="fill:context-stroke;fill-rule:evenodd;stroke:none" />
+        <path
+           id="path2314-1"
+           d="M 0,-4 V 40"
+           style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:square" />
+      </g>
+    </marker>
   </defs>
   <g
      inkscape:groupmode="layer"
@@ -448,10 +497,10 @@
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#17ddb5;stroke-width:0;stroke-linejoin:round;stroke-opacity:0;paint-order:stroke fill markers"
        id="rect1198"
-       width="99.872681"
-       height="91.205246"
-       x="3.9135137"
-       y="1.0269043"
+       width="94.352585"
+       height="111.58675"
+       x="7.0744066"
+       y="2.354409"
        inkscape:export-filename="/home/alex/Nextcloud/Research/rect1198.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
@@ -460,8 +509,8 @@
        id="rect5005"
        width="39.136169"
        height="74.086884"
-       x="19.389778"
-       y="6.6431994"
+       x="17.273109"
+       y="33.630711"
        inkscape:export-filename="/home/alex/Nextcloud/Research/rect1198.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
@@ -470,16 +519,16 @@
        id="rect5007"
        width="36.60738"
        height="73.816833"
-       x="58.525936"
-       y="6.624927"
+       x="56.409267"
+       y="33.612438"
        inkscape:export-filename="/home/alex/Nextcloud/Research/rect1198.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;fill:url(#linearGradient1212);fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="49.330856"
-       y="85.333412"
+       x="47.214188"
+       y="112.3209"
        id="text36936-2"
        inkscape:export-filename="/home/alex/Nextcloud/Research/rect1198.png"
        inkscape:export-xdpi="96"
@@ -487,11 +536,11 @@
          sodipodi:role="line"
          id="tspan36934-5"
          style="font-size:4.23333px;fill:url(#linearGradient1212);stroke-width:0.264583"
-         x="49.330856"
-         y="85.333412">Samples</tspan></text>
+         x="47.214188"
+         y="112.3209">Samples</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.264583, 1.05833;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 19.139768,80.556647 c 0,0 17.259458,-9.08349 23.464778,-15.31246 6.20532,-6.22896 13.438979,-20.76598 13.438979,-20.76598 0,0 7.599571,-18.00323 14.28544,-24.48611 6.685866,-6.48287 24.193826,-13.1325897 24.193826,-13.1325897"
+       d="m 17.0231,107.54421 c 0,0 17.259458,-9.083536 23.464778,-15.312506 6.20532,-6.22896 13.438979,-20.76598 13.438979,-20.76598 0,0 7.599571,-18.00323 14.28544,-24.48611 6.685866,-6.48287 24.193826,-13.132592 24.193826,-13.132592"
        id="path786"
        sodipodi:nodetypes="czczc"
        inkscape:export-filename="/home/alex/Nextcloud/Research/rect1198.png"
@@ -499,17 +548,17 @@
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.264583, 0.529166;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 19.619548,81.036877 c 14.95003,-1.84974 25.759011,-3.47379 30.440314,-10.26424 4.681303,-6.79044 5.352213,-14.42074 5.631102,-25.43464 0.323992,-12.79512 1.102389,-25.38728 8.396943,-31.28793 6.284775,-5.0838197 14.790594,-7.4450397 30.494334,-7.0949897 5.759449,0.12837 0.42035,0.0275 0.42035,0.0275"
+       d="m 17.50288,108.02444 c 14.95003,-1.84975 25.759011,-3.47381 30.440314,-10.264286 4.681303,-6.79044 5.352213,-14.42074 5.631102,-25.43464 0.323992,-12.79512 1.102389,-25.38728 8.396943,-31.28793 6.284775,-5.08382 14.790594,-7.445042 30.494334,-7.094992"
        id="path2499"
-       sodipodi:nodetypes="czsssc"
+       sodipodi:nodetypes="czssc"
        inkscape:export-filename="/home/alex/Nextcloud/Research/rect1198.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.116157"
-       x="75.984924"
-       y="56.054661"
+       x="73.730377"
+       y="81.391632"
        id="text12632"
        transform="scale(0.93884169,1.0651423)"
        inkscape:export-filename="/home/alex/Nextcloud/Research/rect1198.png"
@@ -518,31 +567,11 @@
          sodipodi:role="line"
          id="tspan12630"
          style="font-size:4.23333px;stroke-width:0.116157"
-         x="75.984924"
-         y="56.054661">Slope</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.109708"
-       x="27.58363"
-       y="26.076366"
-       id="text23778"
-       transform="scale(1.0114546,0.98867513)"
-       inkscape:export-filename="/home/alex/Nextcloud/Research/rect1198.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan23776"
-         style="font-size:4.23333px;stroke-width:0.109708"
-         x="27.58363"
-         y="26.076366">Inflection </tspan><tspan
-         sodipodi:role="line"
-         style="font-size:4.23333px;stroke-width:0.109708"
-         x="27.58363"
-         y="31.368029"
-         id="tspan26120">point</tspan></text>
+         x="73.730377"
+         y="81.391632">Slope</tspan></text>
     <path
-       style="display:inline;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#1e9479;stroke-width:0.26255px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DistanceStart);marker-end:url(#DistanceEnd)"
-       d="m 19.737946,32.318837 35.932029,-0.025"
+       style="display:inline;fill:#01ebd9;fill-opacity:1;fill-rule:evenodd;stroke:#03677c;stroke-width:0.26255px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DistanceStart);marker-end:url(#DistanceEnd)"
+       d="m 17.621278,23.322998 35.932029,-0.025"
        id="path52504"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -550,8 +579,17 @@
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
+       style="display:inline;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#038108;stroke-width:0.273717px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DistanceStart-3);marker-end:url(#DistanceEnd-5)"
+       d="m 53.697968,23.29715 39.371573,-0.0248"
+       id="path52504-2"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/alex/Nextcloud/Research/rect1198.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
        style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#1e9479;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
-       d="M 71.851871,57.565497 52.042495,52.567367"
+       d="M 69.735203,84.553014 49.925827,79.554884"
        id="path53282"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -560,7 +598,7 @@
        inkscape:export-ydpi="96" />
     <path
        style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#1e9479;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
-       d="m 71.559261,57.611807 -19.049034,0.53325"
+       d="m 69.442593,84.599324 -19.049034,0.53325"
        id="path53282-5"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -569,7 +607,7 @@
        inkscape:export-ydpi="96" />
     <path
        style="display:inline;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#1e9479;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
-       d="m 71.679211,57.647267 -17.701565,5.78366"
+       d="m 69.562543,84.634784 -17.701565,5.78366"
        id="path53282-7"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -597,7 +635,7 @@
     </g>
     <g
        inkscape:label=""
-       transform="translate(-82.473876,-38.893563)"
+       transform="translate(-84.061377,-11.906046)"
        id="g60558"
        inkscape:export-filename="/home/alex/Nextcloud/Research/rect1198.png"
        inkscape:export-xdpi="96"
@@ -659,28 +697,28 @@
        inkscape:export-ydpi="96" />
     <path
        style="fill:#999999;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.71434"
-       d="M 19.269361,80.682597 19.389781,6.6249273"
+       d="m 17.152693,107.67016 0.12042,-74.057718"
        id="path2265-1"
        inkscape:path-effect="#path-effect2375"
-       inkscape:original-d="m 19.269361,80.682597 c 27.054397,-0.08 -26.9334499,-73.9771397 0.12042,-74.0576697"
+       inkscape:original-d="m 17.152693,107.67016 c 27.054397,-0.08 -26.9334487,-73.977188 0.12042,-74.057718"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="/home/alex/Nextcloud/Research/rect1198.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:#999999;stroke:#000000;stroke-width:0.25592px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 19.26957,80.682717 75.861451,-0.24108"
+       d="M 17.152902,107.67028 93.014353,107.4292"
        id="path2265"
        inkscape:path-effect="#path-effect2267"
-       inkscape:original-d="m 19.26957,80.682717 c 25.287397,-0.0801 50.574547,-0.16046 75.861451,-0.24108"
+       inkscape:original-d="m 17.152902,107.67028 c 25.287397,-0.0801 50.574547,-0.16046 75.861451,-0.24108"
        inkscape:export-filename="/home/alex/Nextcloud/Research/rect1198.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 19.269361,80.682597 c 8.599462,0.459111 17.334741,-2.713291 23.635493,-8.58373 7.328764,-6.828243 11.076421,-16.709204 12.996376,-26.54025 1.172368,-6.003058 1.771546,-12.17877 3.995403,-17.87663 2.662804,-6.82251 7.662373,-12.708027 13.964483,-16.439056 6.30211,-3.73103 13.866741,-5.2838799 21.129055,-4.3373237"
+       d="m 17.152693,107.67016 c 8.599467,0.45909 17.334743,-2.71333 23.635493,-8.583776 7.328759,-6.828249 11.076419,-16.709205 12.996376,-26.54025 1.172369,-6.003057 1.771547,-12.17877 3.995403,-17.87663 2.662804,-6.822511 7.662372,-12.708028 13.964482,-16.439058 6.30211,-3.73103 13.866742,-5.28388 21.129056,-4.337324"
        id="path2586"
-       inkscape:original-d="M 19.269361,80.682597 C 31.632642,69.363477 49.445199,98.575047 42.904854,72.098867 38.884961,55.825797 57.241118,51.094997 55.90123,45.558617 55.134071,42.388737 1655.0139,123.22511 59.896633,27.681987 -525.41626,-7.3766327 94.589041,6.9058673 94.990171,6.9056073"
+       inkscape:original-d="M 17.152693,107.67016 C 29.515974,96.350994 47.328531,125.56271 40.788186,99.086384 36.768293,82.813314 55.12445,78.082514 53.784562,72.546134 53.017403,69.376254 1652.8971,150.21278 57.779965,54.669504 -527.53294,19.610874 92.472373,33.893382 92.873503,33.893122"
        inkscape:path-effect="#path-effect2588"
        sodipodi:nodetypes="csssc"
        inkscape:export-filename="/home/alex/Nextcloud/Research/rect1198.png"
@@ -689,8 +727,8 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.172143"
-       x="19.692408"
-       y="46.085461"
+       x="23.086895"
+       y="19.810143"
        id="text9405"
        transform="scale(0.97434539,1.0263301)"
        inkscape:export-filename="/home/alex/Nextcloud/Research/rect1198.png"
@@ -699,27 +737,33 @@
          sodipodi:role="line"
          id="tspan9403"
          style="font-size:4.23333px;stroke-width:0.172143"
-         x="19.692408"
-         y="46.085461">Build model</tspan></text>
+         x="23.086895"
+         y="19.810143">Build model</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.172143"
-       x="77.751892"
-       y="42.772938"
+       x="55.131908"
+       y="20.03525"
        id="text9405-5"
        transform="scale(0.97434539,1.0263301)"
        inkscape:export-filename="/home/alex/Nextcloud/Research/rect1198.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
-         id="tspan9403-4"
          style="font-size:4.23333px;stroke-width:0.172143"
-         x="77.751892"
-         y="42.772938">Optimize </tspan><tspan
+         x="55.131908"
+         y="20.03525"
+         id="tspan19358">Optimize operation</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="26.739265"
+       y="10.209654"
+       id="text22411"><tspan
          sodipodi:role="line"
-         style="font-size:4.23333px;stroke-width:0.172143"
-         x="77.751892"
-         y="48.064598"
-         id="tspan19358">operation</tspan></text>
+         id="tspan22409"
+         style="font-size:5.64444px;stroke-width:0.264583"
+         x="26.739265"
+         y="10.209654">Sigmoid transition</tspan></text>
   </g>
 </svg>
