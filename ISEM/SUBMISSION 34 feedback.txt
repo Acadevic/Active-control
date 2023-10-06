@@ -1,0 +1,52 @@
+SUBMISSION: 34
+TITLE: Automated modeling and control of steady state engineering processes using deep active learning
+
+
+----------------------- REVIEW 1 ---------------------
+SUBMISSION: 34
+TITLE: Automated modeling and control of steady state engineering processes using deep active learning
+AUTHORS: Clint Steed and Namhun Kim
+
+----------- CONTRIBUTION -----------
+SCORE: 0 (not at all)
+----- TEXT:
+The article was not related to the Industrial Engineering filed.
+----------- METHOD/APPROACH -----------
+SCORE: 0 (A flawed or incomplete approach (not repairable))
+----------- CLARITY -----------
+SCORE: 0 (poorly structured with illogical flow)
+----------- QUALITY -----------
+SCORE: 0 (not at all)
+----------- CONFERENCE THEME -----------
+SCORE: 0 (not at all)
+
+
+
+----------------------- REVIEW 2 ---------------------
+SUBMISSION: 34
+TITLE: Automated modeling and control of steady state engineering processes using deep active learning
+AUTHORS: Clint Steed and Namhun Kim
+
+----------- CONTRIBUTION -----------
+SCORE: 1 (marginal contribution)
+----- TEXT:
+This is a contribution to Industrial Engineering. However, it is unclear exactly where the contribution lies. More context is needed on the industrial processes (e.g. extruder) and data used in the models. A deeper reflection on the conclusions and the formulation of more recommendations is encouraged. Also discuss steady state engineering processes in the introduction
+----------- METHOD/APPROACH -----------
+SCORE: 1 (Some flaws but can be considered after addressing the issues/concerns)
+----- TEXT:
+At this stage the method is still not clear to the reader. For the method section, kindly provide more details on the data used in the research. A visualisation of this would aid the reader as well in better understanding the approach followed.
+----------- CLARITY -----------
+SCORE: 1 (needs improvement - some rework required)
+----- TEXT:
+Kindly demarcate points 1 and 2 in the introduction as research objectives. Also consider formalising a research aim in and outline for the research paper. More context is also needed on what industrial processes and the full scope of the research. Authors are enocouraged to include this and expand on the introduction section of the paper. Kindly share more details regarding Figure 1.
+Explain why Gaussian process regression was not used. The engineering application sectio needs to be mentioned earlier on to better contextualise the study. It is recommended that the full overview of the sections is worded in the introduction. Kindly provide a further explanantion on the exploration constrainst subsection, specifically the distance contraint.
+Kindly create a 7th section for the conclusion and recommendations
+----------- QUALITY -----------
+SCORE: 1 (major issues that can be addressed)
+----- TEXT:
+Figure captions also do not conform to conference guidelines - kindly update this using the template provided on EasyChair
+Minor comments: Please insert "Keywords:" on first page.
+----------- CONFERENCE THEME -----------
+SCORE: 1 (somewhat related to the conference theme)
+----- TEXT:
+Not necessarily, but it does provide steps towards further applications of deep learning

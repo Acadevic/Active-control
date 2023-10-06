@@ -1,4 +1,4 @@
-# Automated modeling and control of steady state engineering processes using deep active learning
+# Automated modelling and control of steady- state engineering processes using deep active learning
 
 
 ## Abstract
